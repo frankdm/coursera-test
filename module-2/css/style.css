@@ -3,41 +3,48 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   div#container {
-    background-color: #00FFFF;
+
     position: relative;
-    padding: 0px 25px 0px 25px
+    padding: 0px 25px 0px 25px;
+    /* border: 1px solid rgb(61, 55, 55);
+    background-color: rgb(255, 255, 255); */
   }
 
   h1 {
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 75px 0px;
     text-align: center
     
   }
   
   p {
-    border: 1px solid rgb(61, 55, 55);
+    /* border: 1px solid rgb(61, 55, 55); */
     background-color: rgb(255, 255, 255);
-    /* margin-right: auto;
-    margin-left: auto; */
-    font-family: Helvetica;
     color: black;
 
   }
 
+  #c1 {
+    background-color: rgb(143, 191, 192);
+    color: black;
+    border: 1px solid rgb(61, 55, 55);
+    
+  }
 
   #p1 {
     background-color: rgb(36, 56, 33);
     text-align: center;
-    /* margin-right: 0px; */
+    color: white;
     height: 50px;
     width: 25%;
     position: relative;
     left: 0px;
     float: right;
     padding: 15px;
+    
   }
 
   #p2 {
@@ -47,9 +54,11 @@
     top: 0;
     left: 0;
     clear: right;
+    padding: 15px;
   }
 
   
+
   /* Simple Responsive Framework. */
   .row {
     width: 100%;
