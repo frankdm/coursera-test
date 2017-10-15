@@ -15,7 +15,8 @@
 
   h1 {
     margin: 50px 0px 50px 0px;
-    text-align: center
+    text-align: center;
+    font-size: 175%     
   }
   
   p {
@@ -26,22 +27,22 @@
   #c1 {
     background-color: rgb(210, 222, 223);
     color: black;
-    border: 1px solid rgb(61, 55, 55);
+    border: 1px solid black;
   }
 
  
   .foodbox {
     text-align: center;
     height: auto;
-    width: 25%;
+    width: 40%;
     position: relative;
     left: 0px;
     float: right;
     padding: 15px;
     font-weight: bold;
-    /* border-style: solid; */
-    border-left: thin solid rgb(61, 55, 55);
-    border-bottom: thin solid rgb(61, 55, 55);
+    font-size: 125%;
+    border-left: thin solid black;
+    border-bottom: thin solid black;
   }
 
   .desc {
