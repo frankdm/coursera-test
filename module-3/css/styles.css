@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h3 {
+  padding: 10px 0px 20px 0px;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 0px;
+}
+
+#content {
+  background-color: #e9e0c2;
+  margin: 0px;
+  padding: 10px;
+}
+  
+#menu-title h1{ 
+  color: rgb(219, 156, 73);
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 30px;
+} 
+
+#nav-head a.navbar-brand {
+  color: rgb(12, 11, 11);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+
+#navbar-menu{
+  background-color: rgb(255, 213, 151);
+}
+
+  /********** Greater than xs devices *****************/
+@media (min-width: 768px)  {
+  #navbar-menu{
+    background-color: #f8f8f8;
+  }
+}
